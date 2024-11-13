@@ -10,7 +10,7 @@ class AzMail2 {
 
     public static void main(String argv[]) throws Exception {
         String user = "s2010976154@ru.ac.bd";
-        String pass = "R1m2008@Ram%M";
+        String pass = "";
 
         String username =new String(Base64.getEncoder().encode(user.getBytes()));
         String password = new String(Base64.getEncoder().encode(pass.getBytes()));
